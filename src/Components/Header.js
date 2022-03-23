@@ -16,12 +16,12 @@ export default function Header() {
           </NavLink>
         </li>
         <li>
-          <NavLink exact to={'/bunnies'}>
+          <NavLink exact to="/bunnies">
             Bunnies
           </NavLink>
         </li>
         <li>
-          <NavLink exact to={'/todos'}>
+          <NavLink exact to="/todos">
             Todos
           </NavLink>
         </li>

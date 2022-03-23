@@ -18,13 +18,13 @@ function App() {
             <Route exact path="/">
               <Main />
             </Route>
-            <Route path={'/workshops'}>
+            <Route path="/workshops">
               <Workshops />
             </Route>
-            <Route path={'/bunnies'}>
+            <Route path="/bunnies">
               <Bunnies />
             </Route>
-            <Route path={'/todos'}>
+            <Route path="/todos">
               <Todos />
             </Route>
           </Switch>
