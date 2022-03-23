@@ -7,7 +7,6 @@ export default function Workshops() {
   useEffect(() => {
     const fetchWorkshopData = async () => {
       const data = await getWorkshops();
-      console.log(data, 'data in workshop.js');
       sw(data);
     };
     fetchWorkshopData();
